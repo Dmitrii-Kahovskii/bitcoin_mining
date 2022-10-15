@@ -1,0 +1,228 @@
+.start {
+  padding-top: 44px;
+  padding-bottom: 44px;
+  background: #F0F1F8;
+  border-radius: 52px;
+  /* Mobile */
+  /* Mobile XS */
+}
+@media (max-width: 899px) {
+  .start {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 599px) {
+  .start {
+    padding-bottom: 0;
+  }
+}
+
+.start__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  /* Tablet */
+}
+@media (max-width: 1199px) {
+  .start__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 25px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.content-row {
+  /* Tablet */
+}
+@media (max-width: 1199px) {
+  .content-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.content-row__btn-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 24px;
+          column-gap: 24px;
+  margin-bottom: 24px;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+@media (max-width: 1199px) {
+  .content-row__btn-row {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 899px) {
+  .content-row__btn-row {
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 599px) {
+  .content-row__btn-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 10px;
+  }
+}
+
+.content-row__title {
+  margin-bottom: 28px;
+  display: inline-block;
+  max-width: 590px;
+  font-weight: 600;
+  font-size: 84px;
+  line-height: 82px;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+@media (max-width: 1199px) {
+  .content-row__title {
+    font-size: 64px;
+  }
+}
+@media (max-width: 899px) {
+  .content-row__title {
+    font-size: 54px;
+    line-height: 64px;
+  }
+}
+@media (max-width: 599px) {
+  .content-row__title {
+    font-size: 44px;
+    line-height: 50px;
+    font-weight: 400;
+  }
+}
+
+.content-row__subtitle {
+  margin-bottom: 60px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #808080;
+  /* Tablet */
+  /* Mobile XS */
+}
+@media (max-width: 1199px) {
+  .content-row__subtitle {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 599px) {
+  .content-row__subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.carousel-row {
+  padding-top: 13px;
+  padding-left: 63px;
+  padding-right: 67px;
+  padding-bottom: 24px;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.85)));
+  background: linear-gradient(rgba(255, 255, 255, 0.85) rgba(255, 255, 255, 0));
+  border-radius: 32px;
+}
+
+.carousel-row__img {
+  width: 377px;
+  /* Mobile XS */
+}
+@media (max-width: 599px) {
+  .carousel-row__img {
+    width: 320px;
+  }
+}
+
+.carousel-row__text {
+  margin-top: -55px;
+  margin-bottom: 24px;
+}
+
+.carousel-row__text h3 {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.24;
+}
+
+.carousel-row__text p {
+  display: block;
+  margin-bottom: 18px;
+  font-size: 22px;
+  line-height: 27px;
+  line-height: 1.24;
+  color: #808080;
+}
+
+.carousel-row__text span {
+  font-size: 22px;
+  line-height: 27px;
+  line-height: 1.24;
+  padding: 9px 24px;
+  border: 1px solid;
+  border-radius: 23px;
+  background: #FFFFFF;
+  color: #808080;
+  -webkit-box-shadow: 8px -5px 8px 20px rgba(88, 145, 255, 0.11);
+          box-shadow: 8px -5px 8px 20px rgba(88, 145, 255, 0.11);
+}
+
+.corousel-row__dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.corousel-row__dots span {
+  margin-right: 16px;
+  display: block;
+  width: 48px;
+  height: 9px;
+  border-radius: 13px;
+  background: #FFCC51;
+}
+
+.dot {
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: rgba(138, 138, 138, 0.39);
+}
+
+.dot:not(:last-child) {
+  margin-right: 16px;
+}
+
+/*# sourceMappingURL=start.css.map */

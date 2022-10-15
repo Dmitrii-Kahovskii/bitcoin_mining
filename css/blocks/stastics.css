@@ -1,0 +1,72 @@
+.stastics {
+  margin-top: 35px;
+  margin-bottom: 40px;
+  /* Tiblet */
+  /* Mobile XS */
+}
+@media (max-width: 1299px) {
+  .stastics {
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 599px) {
+  .stastics {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.stastics__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.stastics-card {
+  text-align: center;
+}
+
+.stastics-card img {
+  margin-bottom: 11px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stastics-card span {
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.24;
+  /* Mobile */
+  /* Mobile XS */
+}
+@media (max-width: 899px) {
+  .stastics-card span {
+    font-size: 38px;
+  }
+}
+@media (max-width: 599px) {
+  .stastics-card span {
+    font-size: 34px;
+    font-weight: 600;
+  }
+}
+
+.stastics-card p {
+  font-size: 26px;
+  line-height: 1.24;
+  color: #808080;
+}
+
+/*# sourceMappingURL=stastics.css.map */

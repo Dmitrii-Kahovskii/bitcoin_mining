@@ -1,0 +1,126 @@
+.services {
+    margin-bottom: 50px;
+}
+
+.services__row {
+    display: flex;
+    flex-direction: column;
+    row-gap: 62px;
+    position: relative;
+    /* Mobile */
+    @media (max-width: 899px) {
+    row-gap: 40px;
+    }
+    /* Mobile XS */
+    @media (max-width: 599px) {
+    row-gap: 30px;
+    }
+}
+.services-card {
+    margin-left: 8%;
+    position: relative;
+    /* Tablet */
+    @media (max-width: 1199px) {
+    margin-left: 0;
+    }
+}
+.services-card:nth-child(3) {
+    margin-left: 38%;
+        /* Tablet */
+    @media (max-width: 1199px) {
+    margin-left: 0;
+    }
+}
+.services-card:nth-child(5) {
+    margin-left: 20%;
+        /* Tablet */
+    @media (max-width: 1199px) {
+    margin-left: 0;
+        }
+}
+
+.services-card h4 {
+    margin-bottom: 18px;
+
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 1.24;
+    z-index: 9;
+    /* Mobile */
+    @media (max-width: 899px) {
+    margin-bottom: 10px;
+    font-size: 36px;
+    }
+    /* Mobile XS */
+    @media (max-width: 599px) {
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1;
+    }
+}
+.services-card p {
+    display: inline-block;
+    max-width: 781px;
+    font-size: 22px;
+    line-height: 1.24;
+    color: #808080;
+    z-index: 9;
+    /* Mobile */
+    @media (max-width: 899px) {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.15;
+    }
+}
+.services-card img {
+    position: absolute;
+    left: -57px;
+    top: -62px;
+    z-index: -9;
+    /* Tablet */
+    @media (max-width: 1199px) {
+    left: 0;
+    z-index: -1;
+    }
+    /* Mobile */
+    @media (max-width: 899px) {
+    top: -30px;
+    }
+}
+
+.services__img-1 {
+    position: absolute;
+    top: 41px;
+    left: 5px;
+    width: 512px;
+    /* Tablet */
+    @media (max-width: 1199px) {
+    display: none;
+        }
+}
+.services__img-2 {
+    position: absolute;
+    top: 328px;
+    left: 266px;
+    width: 264px;
+    /* Tablet */
+    @media (max-width: 1199px) {
+    display: none;
+    }
+
+}
+.services__img-3 {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    width: 461px;
+    /* Tablet */
+    @media (max-width: 1199px) {
+    left: 45%;
+    }
+    /* Mobile */
+    @media (max-width: 899px) {
+    left: 18%;
+    }
+}
